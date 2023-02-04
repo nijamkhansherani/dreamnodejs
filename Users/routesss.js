@@ -64,5 +64,8 @@ app.get('/find',async(req,res)=>{
 })
 
 
-
+app.get("/home",(req,res)=>{
+    res.send("hello nijaam bhanu");
+    console.log("hello bhanu ji");
+})
 app.listen(5000);
