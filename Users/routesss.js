@@ -68,4 +68,9 @@ app.get("/home",(req,res)=>{
     res.send("hello nijaam bhanu");
     console.log("hello bhanu ji");
 })
+
+app.get("/page",(req,res)=>{
+    res.send('how are you');
+    console.log("how are you");
+})
 app.listen(5000);
